@@ -1,0 +1,153 @@
+html,
+body {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto";
+    fill: #333333;
+}
+
+body {
+    background: linear-gradient(0deg, #fffad9, #fffdf0);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.christmas-tree {
+    height: 100%;
+    width: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.tree {
+    fill: #317c34;
+}
+
+.bottom {
+    fill: rgb(165, 106, 39);
+}
+
+.star {
+    fill: #f0cc00;
+}
+
+.lights {
+    fill: #fff78a;
+}
+
+.lights path:nth-child(4n + 1) {
+    fill: #ff0000;
+    animation: change-lights-1 4s infinite;
+}
+
+.lights path:nth-child(4n + 2) {
+    fill: #0000ff;
+    animation: change-lights-2 4s infinite;
+}
+
+.lights path:nth-child(4n + 3) {
+    fill: #01fa01;
+    animation: change-lights-3 4s infinite;
+}
+
+.lights path:nth-child(4n + 4) {
+    fill: #ffff00;
+    animation: change-lights-4 4s infinite;
+}
+
+@keyframes change-lights-1 {
+    0% {
+        fill: #ff0000;
+    }
+    25% {
+        fill: #0000ff;
+    }
+    50% {
+        fill: #01fa01;
+    }
+    75% {
+        fill: #ffff00;
+    }
+    100% {
+        fill: #ff0000;
+    }
+}
+
+@keyframes change-lights-2 {
+    0% {
+        fill: #ffff00;
+    }
+    25% {
+        fill: #ff0000;
+    }
+    50% {
+        fill: #0000ff;
+    }
+    75% {
+        fill: #01fa01;
+    }
+    100% {
+        fill: #ffff00;
+    }
+}
+
+@keyframes change-lights-3 {
+    0% {
+        fill: #01fa01;
+    }
+    25% {
+        fill: #ffff00;
+    }
+    50% {
+        fill: #ff0000;
+    }
+    75% {
+        fill: #0000ff;
+    }
+    100% {
+        fill: #01fa01;
+    }
+}
+
+@keyframes change-lights-4 {
+    0% {
+        fill: #0000ff;
+    }
+    25% {
+        fill: #01fa01;
+    }
+    50% {
+        fill: #ffff00;
+    }
+    75% {
+        fill: #ff0000;
+    }
+    100% {
+        fill: #0000ff;
+    }
+}
+
+.star-balls {
+    fill: #1c28eb;
+}
+
+.balls.big {
+    fill: #cd75ff;
+}
+
+.balls.medium {
+    fill: #00e1ff;
+}
+
+.balls.small {
+    fill: #ffffff;
+}
+
+.ovals {
+    fill: #ffee00;
+}
