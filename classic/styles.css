@@ -29,7 +29,7 @@ body {
 }
 
 .bottom {
-    fill: rgb(165, 106, 39);
+    fill: #a56a27;
 }
 
 .star {
@@ -37,111 +37,111 @@ body {
 }
 
 .lights {
-    fill: #fff78a;
+    fill: #0077ff;
 }
 
 .lights path:nth-child(4n + 1) {
-    fill: #ff0000;
+    fill: #ff000d;
     animation: change-lights-1 4s infinite;
 }
 
 .lights path:nth-child(4n + 2) {
-    fill: #0000ff;
+    fill: #001eff;
     animation: change-lights-2 4s infinite;
 }
 
 .lights path:nth-child(4n + 3) {
-    fill: #01fa01;
+    fill: #74ee15;
     animation: change-lights-3 4s infinite;
 }
 
 .lights path:nth-child(4n + 4) {
-    fill: #ffff00;
+    fill: #ffe700;
     animation: change-lights-4 4s infinite;
 }
 
 @keyframes change-lights-1 {
     0% {
-        fill: #ff0000;
+        fill: #ff000d;
     }
     25% {
-        fill: #0000ff;
+        fill: #001eff;
     }
     50% {
-        fill: #01fa01;
+        fill: #74ee15;
     }
     75% {
-        fill: #ffff00;
+        fill: #ffe700;
     }
     100% {
-        fill: #ff0000;
+        fill: #ff000d;
     }
 }
 
 @keyframes change-lights-2 {
     0% {
-        fill: #ffff00;
+        fill: #ffe700;
     }
     25% {
-        fill: #ff0000;
+        fill: #ff000d;
     }
     50% {
-        fill: #0000ff;
+        fill: #001eff;
     }
     75% {
-        fill: #01fa01;
+        fill: #74ee15;
     }
     100% {
-        fill: #ffff00;
+        fill: #ffe700;
     }
 }
 
 @keyframes change-lights-3 {
     0% {
-        fill: #01fa01;
+        fill: #74ee15;
     }
     25% {
-        fill: #ffff00;
+        fill: #ffe700;
     }
     50% {
-        fill: #ff0000;
+        fill: #ff000d;
     }
     75% {
-        fill: #0000ff;
+        fill: #001eff;
     }
     100% {
-        fill: #01fa01;
+        fill: #74ee15;
     }
 }
 
 @keyframes change-lights-4 {
     0% {
-        fill: #0000ff;
+        fill: #001eff;
     }
     25% {
-        fill: #01fa01;
+        fill: #74ee15;
     }
     50% {
-        fill: #ffff00;
+        fill: #ffe700;
     }
     75% {
-        fill: #ff0000;
+        fill: #ff000d;
     }
     100% {
-        fill: #0000ff;
+        fill: #001eff;
     }
 }
 
 .star-balls {
-    fill: #1c28eb;
+    fill: #93ff73;
 }
 
 .balls.big {
-    fill: #cd75ff;
+    fill: #d896ff;
 }
 
 .balls.medium {
-    fill: #00e1ff;
+    fill: #64edff;
 }
 
 .balls.small {
@@ -149,5 +149,5 @@ body {
 }
 
 .ovals {
-    fill: #ffee00;
+    fill: #fdbe75;
 }
