@@ -51,6 +51,10 @@ a:hover {
     fill: #243050;
 }
 
+.tree.world {
+    fill: #2a4188;
+}
+
 .bottom {
     fill: #a56a27;
 }
